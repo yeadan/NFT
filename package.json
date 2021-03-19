@@ -1,0 +1,21 @@
+{
+  "name": "my-nft",
+  "version": "1.0.0",
+  "description": "Primer token NFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Bosch",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.1.1"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.0.0",
+    "@openzeppelin/contracts": "^3.4.1",
+    "dotenv": "^8.2.0"
+  }
+}
